@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copia de seguridad en Android 11 o anterior.
+   Los datos de la app (nombres de los estudiantes y de sus acudientes, cursos, tareas y las huellas
+   de las claves) viven en files/datos y no se suben a la copia de seguridad.
+   Ver https://developer.android.com/guide/topics/data/autobackup
+-->
+<full-backup-content>
+    <exclude domain="file" path="datos/" />
+</full-backup-content>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Figura del ícono: una pizarrita azul cielo con marco rosado, un chulo de tarea validada y su atril -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Todo un poco más grande, sin salir de la zona segura del ícono -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.1"
+        android:scaleY="1.1">
+    <!-- Patas del atril -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M39,67L34,79M69,67L74,79"
+        android:strokeWidth="4"
+        android:strokeColor="#FF8D6E63"
+        android:strokeLineCap="round" />
+    <!-- Marco rosado -->
+    <path
+        android:fillColor="#FFF48FB1"
+        android:pathData="M36,34H72A6,6 0,0 1,78 40V62A6,6 0,0 1,72 68H36A6,6 0,0 1,30 62V40A6,6 0,0 1,36 34Z" />
+    <!-- Pizarra azul cielo -->
+    <path
+        android:fillColor="#FF4FC3F7"
+        android:pathData="M37,38H71A3,3 0,0 1,74 41V61A3,3 0,0 1,71 64H37A3,3 0,0 1,34 61V41A3,3 0,0 1,37 38Z" />
+    <!-- Chulo blanco: tarea validada -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M44,51L51,58L64,45"
+        android:strokeWidth="5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Tizas de colores en el borde de abajo -->
+    <path
+        android:fillColor="#FFA5D6A7"
+        android:pathData="M42,65.5h7a1.5,1.5 0,0 1,0 3h-7a1.5,1.5 0,0 1,0 -3z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,65.5h7a1.5,1.5 0,0 1,0 3h-7a1.5,1.5 0,0 1,0 -3z" />
+    </group>
+</vector>

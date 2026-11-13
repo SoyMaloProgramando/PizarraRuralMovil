@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores que usa Android antes de que Compose dibuje la app (fondo de la ventana) -->
+    <color name="fondo_crema">#FFFDFBF7</color>
+</resources>

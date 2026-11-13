@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copia de seguridad en Android 12 o más nuevo.
+   Los datos de la app (files/datos) no se suben a la nube: tienen nombres de niños y las huellas de las claves.
+   Al pasar a un celular nuevo con cable o Wi-Fi (device-transfer) sí se copian, para no perder la información del colegio.
+   Ver https://developer.android.com/about/versions/12/backup-restore#xml-changes
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="datos/" />
+    </cloud-backup>
+</data-extraction-rules>
